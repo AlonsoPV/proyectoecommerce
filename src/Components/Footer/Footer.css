@@ -1,0 +1,34 @@
+/* Contenedor principal del footer */
+footer {
+  background-color: #222222;
+  color: white;
+}
+
+footer.p{
+  color: aliceblue;
+}
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Texto dentro del footer */
+  .footer p {
+    margin: 5px 0;
+    opacity: 0.8;
+  }
+  
+  .redes {
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  

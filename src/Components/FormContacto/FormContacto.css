@@ -1,0 +1,39 @@
+.login-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Contenedor de cada campo */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Etiquetas */
+label {
+    font-weight: bold;
+}
+
+/* Campos de entrada y select */
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Mensajes de error */
+p {
+    color: red;
+    font-size: 0.9rem;
+    margin: 0;
+    height: 18px;
+}

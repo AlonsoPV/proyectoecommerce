@@ -1,0 +1,91 @@
+/* Contenedor principal del Header */
+.header__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    padding: 10px 20px;
+    color: white;
+    top: 0;
+    width:100vw;
+    z-index: 100;
+}
+
+/* Contenedor de contenido del Header */
+.header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Barra de navegación en fila */
+.header__nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.header__nav-item {
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.header__nav-item:hover {
+    color: #ff9800;
+}
+
+/* Contenedor de búsqueda */
+.header__search-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+/* Input de búsqueda */
+.header__input-search {
+    width: 100%;
+    max-width: 500px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.header__input-search:focus {
+    outline: none;
+    border: 2px solid #ff9800;
+}
+
+/* Contenedor del producto seleccionado */
+.header__seleccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__seleccionado {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.header__productoindividual {
+    font-size: 1rem;
+    color: #ff9800;
+}
+
+/* Cargando... */
+h2 {
+    font-size: 1.2rem;
+    color: #ff9800;
+}
