@@ -27,7 +27,7 @@ function ProductProvider({children}) {
     };
     //---------------
     const filteredList = list.filter(producto => 
-        producto.product_name.toLowerCase().includes(search.toLowerCase()) 
+        producto.product_name.toLowerCase().includes(search.toLowerCase())
     );
     //-----------
 

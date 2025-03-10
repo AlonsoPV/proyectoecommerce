@@ -9,14 +9,14 @@
     gap: 15px;
 }
 
-/* Contenedor de cada campo */
+
 .form-group {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-/* Etiquetas */
+
 label {
     font-weight: bold;
 }

@@ -7,7 +7,7 @@ import "./LogIn.css";
  
 const Home = () => {
   return (
-  
+   
      <ProductProvider>
      
       <div className="home-container">
